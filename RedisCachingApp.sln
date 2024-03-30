@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8D4B69EA-981C-42E7-9348-1872A248361E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApi", "WebApi", "{B2F47E49-8DB4-48BC-B607-CF20848F5C3E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{24848152-1F19-4AB4-93C4-337FF2B0BE35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisCachingApp.Domain", "src\Core\RedisCachingApp.Domain\RedisCachingApp.Domain.csproj", "{8483C238-1C62-4107-9EC6-F18ADB73DD76}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{C34252F4-FA0F-4C02-ADAE-0B1B06966350}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisCachingApp.Persistence", "src\Infrastructure\RedisCachingApp.Persistence\RedisCachingApp.Persistence.csproj", "{F4F73B1E-150A-40F3-8F0B-0365E8072407}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisCachingApp.WebApi", "src\WebApi\RedisCachingApp.WebApi\RedisCachingApp.WebApi.csproj", "{448BC3D7-71CF-4EBD-9F1A-4BD6C16658C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedisCachingApp.Application", "src\Core\RedisCachingApp.Application\RedisCachingApp.Application.csproj", "{2D7AD9F1-8865-4E6E-9F0F-EFF3754A88E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8483C238-1C62-4107-9EC6-F18ADB73DD76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8483C238-1C62-4107-9EC6-F18ADB73DD76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8483C238-1C62-4107-9EC6-F18ADB73DD76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8483C238-1C62-4107-9EC6-F18ADB73DD76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4F73B1E-150A-40F3-8F0B-0365E8072407}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4F73B1E-150A-40F3-8F0B-0365E8072407}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4F73B1E-150A-40F3-8F0B-0365E8072407}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4F73B1E-150A-40F3-8F0B-0365E8072407}.Release|Any CPU.Build.0 = Release|Any CPU
+		{448BC3D7-71CF-4EBD-9F1A-4BD6C16658C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{448BC3D7-71CF-4EBD-9F1A-4BD6C16658C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{448BC3D7-71CF-4EBD-9F1A-4BD6C16658C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{448BC3D7-71CF-4EBD-9F1A-4BD6C16658C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D7AD9F1-8865-4E6E-9F0F-EFF3754A88E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D7AD9F1-8865-4E6E-9F0F-EFF3754A88E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D7AD9F1-8865-4E6E-9F0F-EFF3754A88E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D7AD9F1-8865-4E6E-9F0F-EFF3754A88E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B2F47E49-8DB4-48BC-B607-CF20848F5C3E} = {8D4B69EA-981C-42E7-9348-1872A248361E}
+		{24848152-1F19-4AB4-93C4-337FF2B0BE35} = {8D4B69EA-981C-42E7-9348-1872A248361E}
+		{8483C238-1C62-4107-9EC6-F18ADB73DD76} = {24848152-1F19-4AB4-93C4-337FF2B0BE35}
+		{C34252F4-FA0F-4C02-ADAE-0B1B06966350} = {8D4B69EA-981C-42E7-9348-1872A248361E}
+		{F4F73B1E-150A-40F3-8F0B-0365E8072407} = {C34252F4-FA0F-4C02-ADAE-0B1B06966350}
+		{448BC3D7-71CF-4EBD-9F1A-4BD6C16658C8} = {B2F47E49-8DB4-48BC-B607-CF20848F5C3E}
+		{2D7AD9F1-8865-4E6E-9F0F-EFF3754A88E4} = {24848152-1F19-4AB4-93C4-337FF2B0BE35}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DDD98507-46A3-4D03-ADBE-A92B18C93A15}
+	EndGlobalSection
+EndGlobal
